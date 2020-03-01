@@ -1,0 +1,20 @@
+import 'package:flutter/material.dart';
+
+void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  runApp(MyApp());
+}
+
+class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: "CryptoCurrency",
+      home: Scaffold(
+        appBar: AppBar(
+          title: Text("Crypto"),
+        ),
+      ),
+    );
+  }
+}
